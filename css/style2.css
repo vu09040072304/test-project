@@ -1,0 +1,99 @@
+@charsex "utf-8";
+body{
+width: 820px;
+background-color:#E9DED4;
+border-left: 10px solid #b0a08f;
+border-right: 10px solid #b0a08f;
+margin-left: auto;
+margin-right: auto;
+background-image:url(../img/phong1.jpg);
+}
+#logo{
+	background:green;
+	height: 310px;
+	border-radius:20px;
+}
+#logo img{
+	float: right;
+	width: 410px;
+	height: 130px;
+	border-radius:10px;
+}
+#logo h1{
+	text-align:left;
+	font-family: ALGERIAN;
+	width: 380px;
+}
+#timer{
+	bottom: 10px;
+	right: 2px;
+	position: fixed;
+	margin: 1px 1px 1px 1px;
+}
+#menu{
+	background: black;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius:10px;
+	
+}
+#main{
+	width: 820px;
+	float: left;
+	min-height: 400px;
+	background: #F0FFFF;
+	margin-left: 10px solid #000;
+	margin-right: 10px solid #000;
+}
+#footer{
+	background: #000;
+	width: 820px;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	clear: left;
+	line-height: 60px;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li{
+	list-style: none;
+	float: left;
+}
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 22px;
+	line-height: 25px;
+	color: #fff;
+	padding: 4px 60px 4px 60px;
+	border-left:2px solid #fff;
+	border-right:2px solid #fff;
+	text-align: center;
+	transition: width 2s, height 2s, transform 2s;
+	border-radius:10px;
+}
+#menu ul li a:hover{
+ width: 50px;
+  height: 30px;
+  background:#58257b;
+  transform: rotate(360deg);
+  text-align: center;
+}
+#menu ul li a.vu3{
+	background: green;
+}
+#main h2{
+	border-radius:10px ;
+}
+#main img{
+	width: 273px;
+	height: 200px;
+}
+#main img.img1{
+	width: 407px;
+	height: 200px;
+}

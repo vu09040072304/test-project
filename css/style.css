@@ -1,0 +1,141 @@
+@charsex "utf-8";
+body{
+width: 820px;
+background-color:#E9DED4;
+border-left: 10px solid #b0a08f;
+border-right: 10px solid #b0a08f;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+background-image:url(../img/phong1.jpg);
+}
+#top2{
+	left: 2px;
+	top: 2px;
+	position: fixed;
+	margin: 2px 2px 2px 2px;
+}
+#timer{
+	bottom: 10px;
+	right: 2px;
+	position: fixed;
+	margin: 1px 1px 1px 1px;
+}
+#top3{
+	right: 2px;
+	top: 10px;
+	position: fixed;
+	margin: 2px 2px 2px 2px;
+}
+#top2 h2{
+	width: 250px;
+	height: 100px;
+	font-family: Vladimir Script;
+	font-size: 72px;
+}
+#top3 h2{
+	width: 250px;
+	height: 100px;
+	font-family: Vladimir Script;
+	font-size: 72px;
+}
+#logo{
+	background:red ;
+	height:310px;
+}
+#logo img{
+	float: right;
+	width: 410px;
+	height: 130px;
+	border-radius:10px;
+}
+#logo h1{
+	text-align: left;
+	float: left;
+	font-family: ALGERIAN;
+	font-size: 30px;
+}
+#logo h3{
+	font-family: ALGERIAN;
+	font-size: 26px;
+	float: left;
+	text-align: right;
+}
+#menu{
+	background: black;
+	width: 820px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#main #left{
+	width: 820px;
+	float: left;
+	min-height: 400px;
+	background: #99FFCC;
+	
+}
+#footer{
+	background: #000;
+	width: 820px;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	clear: left;
+	line-height: 60px;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	width: 820px;
+}
+#menu ul li{
+	list-style: none;
+	float: left;
+}
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 22px;
+	line-height: 25px;
+	color: #fff;
+	padding: 4px 60px 4px 60px;
+	border-left:2px solid #fff;
+	border-right:2px solid #fff;
+	text-align: center;
+	transition: width 2s, height 2s, transform 2s;
+	border-radius:10px;
+}
+#menu ul li a:hover{
+ width: 50px;
+  height: 30px;
+  background:#58257b;
+  transform: rotate(360deg);
+  text-align: center;
+}
+	
+#menu ul li a.vu1{
+	background: red;
+}
+#main #left ul{
+	margin: 0px;
+	padding: 0px;
+	float:left;
+}
+#main #left ul li{
+	list-style: none;
+	clear:left ;
+}
+#main #left ul img{
+	float: left;
+	margin-left: 10px ;
+	width: 350px;
+	padding: 15px;
+	border-radius:20px;
+}
+#main #left ul h2{
+	float: left;
+	font-size: 25px;
+	color: green;
+	float: left;
+}
