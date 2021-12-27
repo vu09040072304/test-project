@@ -11,8 +11,8 @@ min-height: 600px;
 }
 #logo{
 	background:pink;
-	height: 310px;
-	border-radius:20px;
+	height: 200px;
+
 }
 #logo img{
 	float: right;
@@ -34,9 +34,10 @@ min-height: 600px;
 #menu{
 	background: black;
 	height: 30px;
-	margin-top: 20px;
+	margin-top: -17px;
 	margin-bottom: 30px;
-	border-radius:10px;
+	position: fixed;
+	width: 820px;
 }
 #footer{
 	background: #000;
@@ -47,6 +48,7 @@ min-height: 600px;
 	clear: left;
 	line-height: 60px;
 	bottom: 10px;
+	margin-bottom: 10px;
 }
 #php{
 	top: 10px;
@@ -69,18 +71,18 @@ min-height: 600px;
 	height: 22px;
 	line-height: 25px;
 	color: #fff;
-	padding: 4px 60px 4px 60px;
+	padding: 4px 59px 4px 59px;
 	border-left:2px solid #fff;
 	border-right:2px solid #fff;
 	text-align: center;
-	transition: width 2s, height 2s, transform 2s;
+	transition: width 1s, height 1s, transform 2s;
 	border-radius:10px;
 }
 #menu ul li a:hover{
- width: 50px;
-  height: 30px;
+ width: 48px;
+  height: 22px;
   background:#58257b;
-  transform: rotate(360deg);
+  transform: rotate(0deg);
   text-align: center;
 }
 #menu ul li a.vu6{
@@ -112,5 +114,8 @@ list-style: none;
 	color: green;
 	float: left;
 }
+#form{
 
+margin-top: 100px;
 
+}
