@@ -77,9 +77,50 @@ session_start();
         </script>
 	</head>
 	<body onload="startTime()">	
+			</div>
+			<div id="timer"></div>
+			<div id="menu">
+					<ul>	
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index1.html">地名</a></li>
+						<li><a href="index2.html">料理</a></li>
+						<li><a href="index3.html">祭り</a></li>
+						<li><a href="index5.html" class="vu6">Login</a></li>
+					</ul>	
+			</div>
 			<div id="logo">
 				<img src="img/logo.jpg" alt="logo">
 				<p><img src="img/logo1.jpg" alt="logo1"></p>
+				</div>
+				<div id="form">
+				<form action="index6.html" method="POST">
+	    	<table width="400" height="200" border="2" cellpadding="5" align="center">
+	    		<tr>
+	    		<th colspan="2">ログイン</th>
+				</tr>
+			<tr>
+	    		<td>Username</td>
+	    		<td><input type="text" name="username" size="30"></td>
+	    		</tr>
+	    		<tr>
+	    		<td>Password</td>
+	    		<td><input type="password" name="password" size="30"></td>
+	    		</tr>
+	    		<tr>
+	    		<td colspan="2" align="center">
+					<input type="submit" name="send_b" value="ログイン" >
+	    			<input type="submit" name="reset" value="リセット" >
+	    		</td>
+	    		</tr>
+	    		<tr>
+	    		<td colspan="2" align="center">
+	    		<b>申し込みたい場合は,このボタンをを押してください</b><br>
+	    		<input type="button" name="dangky" value="申し込む" onclick=location.href="index7.html">
+	    		</td>
+	    		</tr>
+	    	</table>		
+			</form>
+			</div>
 				<div id="php1">
 					<!--  <?php
 				if(isset($_SESSION["login"])){
@@ -90,17 +131,7 @@ session_start();
 				?>
 				-->
 				</div>
-			</div>
-			<div id="timer"></div>
-			<div id="menu">
-					<ul>	
-						<li><a href="index.html">ホーム</a></li>
-						<li><a href="index1.html">地名</a></li>
-						<li><a href="index2.html">料理</a></li>
-						<li><a href="index3.html">祭り</a></li>
-						<li><a href="index5.html" class="vu6">Login</a></li>
-					</ul>	
-			</div>
+			
 			<div id="php">
 			<!--<?php
 				if(isset($_SESSION["login"])){

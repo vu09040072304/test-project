@@ -31,11 +31,11 @@ div h1 {
   animation-iteration-count:infinite;
 }
 @keyframes menu2 {
-  0% {color: Crimson; left:0px; top:0px;}
-  25% {color: LightSalmon; left:550px; top:0px;}
-  50% {color: pink; left:550px; top:120px;}
-  75% {color:silver; left:0px; top:120px;}
-  100% {color: indigo; left:0px; top:0px;}
+  0% {color: Crimson; left:0px; top:-30px;}
+  25% {color: LightSalmon; left:550px; top:-30px;}
+  50% {color: pink; left:550px; top:40px;}
+  75% {color:silver; left:0px; top:40px;}
+  100% {color: indigo; left:0px; top:-30px;}
 }
 div h3 {
   width: 280px;
@@ -46,11 +46,11 @@ div h3 {
   animation-iteration-count:infinite;
 }
 @keyframes menu3 {
-  0% {color: Crimson; right:-230px; top:120px;}
-  25% {color: LightSalmon; right:290px; top:120px;}
-  50% {color: pink; right:290px; top:0px;}
-  75% {color:silver; right:-230px; top:0px;}
-  100% {color: indigo; right:-230px; top:120px;}
+  0% {color: Crimson; right:-230px; top:40px;}
+  25% {color: LightSalmon; right:290px; top:40px;}
+  50% {color: pink; right:290px; top:-30px;}
+  75% {color:silver; right:-230px; top:-30px;}
+  100% {color: indigo; right:-230px; top:40px;}
 }
 #timer {
     display: block;
@@ -91,9 +91,17 @@ div h3 {
         </script>
 	</head>
 	<body onload="startTime()">
-			<div id="back"></div>
 			<div id="top2"><h2>Welcome</h2></div>
 			<div id="top3">	<h2>My Page</h2></div>
+			<div id="menu">
+					<ul>	
+						<li><a href="index.html" class="vu1">Home</a></li>
+						<li><a href="index1.html">地名</a></li>
+						<li><a href="index2.html">料理</a></li>
+						<li><a href="index3.html">祭り</a></li>
+						<li><a href="index5.html">Login</a></li>
+					</ul>
+			</div>
 			<div id="timer"></div>
 			<div id="logo">
 				<img src="img/logo.jpg" alt="logo">
@@ -101,15 +109,7 @@ div h3 {
 				<h1>Welcome To Hue</h1>
 				<h3>Welcome To VietNam</h3>
 			</div>
-			<div id="menu">
-					<ul>	
-						<li><a href="index.html" class="vu1">ホーム</a></li>
-						<li><a href="index1.html">地名</a></li>
-						<li><a href="index2.html">料理</a></li>
-						<li><a href="index3.html">祭り</a></li>
-						<li><a href="index5.html">Login</a></li>
-					</ul>
-			</div>
+			
 			<div id="php">
 			<!--	<?php
 				if(isset($_SESSION["login"])){
